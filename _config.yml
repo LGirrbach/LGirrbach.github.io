@@ -19,12 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Leander Girrbach
-email: leander.girrbach@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal homepage of Leander Girrbach.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: LGirrbach
 
 # Build settings
 theme: null
@@ -50,3 +46,28 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: posts
+      path: _posts
+    values:
+      is_post: true
+      layout: post
+      permalink: /blog/:categories/:title/
+  -
+    scope:
+      type: pages
+      path: _pages
+    values:
+      is_post: false
+      layout: default
+
+# Include pages
+include: [_pages]
+
+# Minifying Comiled CSS
+sass:
+  style: compressed

@@ -1,0 +1,26 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #b8b8b8;
+    color: black;
+    text-align: center;
+  }
+
+.footer li {
+    display: inline; /* « More magic. */
+}
+
+.footer a {
+    display: inline-block; /* « Last bit of magic. */
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer img {
+    width: 20px;
+}
