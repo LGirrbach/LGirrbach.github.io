@@ -1,3 +1,0 @@
-# Leander Girrbach
-
-Under construction.
