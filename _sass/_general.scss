@@ -9,3 +9,27 @@
     font-family: Arial;
     background-color: #333;
   }
+
+  a:link {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: hotpink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
