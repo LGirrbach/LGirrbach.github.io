@@ -64,9 +64,15 @@ defaults:
     values:
       is_post: false
       layout: default
+  
+# Collections
+collections:
+  lyrics:
+    output: true
+    permalink: /lyrics/:path/
 
 # Include pages
-include: [_pages]
+include: _pages
 
 # Minifying Comiled CSS
 sass:

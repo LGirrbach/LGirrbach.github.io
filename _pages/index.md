@@ -7,7 +7,7 @@ permalink: /
 _Hello there!_
 <br/><br/>
 _I am Leander, currently a PhD student in the <a href="https://www.eml-unitue.de/"> Explainable Machine Learning Group</a> at the <a href="https://uni-tuebingen.de/"> University of Tübingen</a>.
-I earned my Master's degree in Computational Linguistics from the University of Tübingen and my Bachelor's degree, also in Computational Linguistics, from the <a href="https://www.uni-heidelberg.de/en"> University of Heidelberg</a>._
+I earned my Master's degree in Computational Linguistics from the University of Tübingen and my Bachelor's degree, also in Computational Linguistics, from <a href="https://www.uni-heidelberg.de/en"> Heidelberg University</a>._
 <br/><br/>
 _My primary interest centers around gaining a better understanding of deep learning --- understanding how neural networks work and constructing models that are more interpretable._
 <br/><br/>
